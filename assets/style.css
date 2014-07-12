@@ -1,0 +1,85 @@
+body {
+	font-family: Arial;
+	font-size: 13px;
+	color: #B8B8B8;
+	background-color: #171717;
+	line-height: 22px;
+}
+
+div.wrapper {
+	width: 860px;
+	margin: 0 auto;
+	margin-top: -8px;
+}
+
+div.header {
+	margin-bottom: 30px;
+}
+
+a {
+	color: #DEA9FF;
+}
+
+input[type="text"] {
+	width: 250px;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 22px;
+	color: #DEA9FF;
+}
+
+div.known {
+	padding-top: 29px;
+}
+
+ul {
+	padding-bottom: 25px;
+}
+
+li {
+	list-style-type: none;
+	clear: both;
+}
+
+li.error {
+	color: red;
+	font-weight: bold;
+}
+
+li div {
+	float:left;
+}
+
+li div.location {
+	float:right;
+}
+
+li.schedule_list_item, li.location_list_item {
+	border-bottom: 1px dotted #B8B8B8;
+	height: 22px;
+}
+
+li.last {
+	border: none;
+}
+
+div.label {
+	min-width: 250px;
+	max-width: 250px;
+	font-weight: bold;
+}
+
+div.formlabel {
+	min-width: 150px;
+	max-width: 150px;
+	font-weight: bold;
+}
+
+li.location_list_item img {
+	margin-left: 4px;
+	cursor: pointer;
+	float: right;
+	padding-top: 4px;
+}

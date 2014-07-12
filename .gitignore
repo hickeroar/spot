@@ -1,0 +1,4 @@
+/archive/*
+/locations.json
+/schedule.json
+/config/.vagrant

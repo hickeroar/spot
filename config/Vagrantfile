@@ -1,0 +1,12 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant::Config.run do |config|
+  config.vm.box = "spot"
+  config.vm.box_url = "http://files.vagrantup.com/precise32.box"
+
+  config.vm.forward_port 80, 8081
+  config.vm.forward_port 22, 2223
+
+  config.vm.share_folder "spot", "/srv/spot", "../"
+end
